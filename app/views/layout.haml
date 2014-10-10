@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %meta{'charset' => 'utf-8'}
+    %title Sinatra Template
+    %meta{'name' => 'description', 'content' => ''}
+    %meta{'name' => 'author', 'content' => ''}
+    %link{rel: 'stylesheet', href: asset_path('application.css'), type: 'text/css'}
+    %script{:type => "text/javascript", :src  => asset_path('application.js')}
+    %script{:type => "text/javascript", :src  => asset_path('vendor.js')}
+  %body
+    #content
+      = yield

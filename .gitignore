@@ -1,0 +1,4 @@
+.DS_STORE
+*.sass-cache*
+tmp/*
+.ruby-version
