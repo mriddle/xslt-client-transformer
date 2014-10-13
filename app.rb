@@ -1,3 +1,4 @@
+require 'bundler/setup'
 require 'lib/base'
 
 class App < Base
